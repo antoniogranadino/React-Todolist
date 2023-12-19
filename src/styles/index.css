@@ -1,12 +1,11 @@
+html, body {
+    height: 100%;
+}
 
-/* 
-
-    You can write your own styles here...
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
